@@ -1,0 +1,14 @@
+fr/spectr2155e/essentialscommand/objects/managers/ListenerManager.class
+fr/spectr2155e/essentialscommand/objects/enums/HelpType.class
+fr/spectr2155e/essentialscommand/objects/managers/CommandManager.class
+fr/spectr2155e/essentialscommand/commands/Vanish.class
+fr/spectr2155e/essentialscommand/commands/GamemodeS.class
+fr/spectr2155e/essentialscommand/objects/enums/MessageType.class
+fr/spectr2155e/essentialscommand/objects/enums/Message.class
+fr/spectr2155e/essentialscommand/EssentialsCommand.class
+fr/spectr2155e/essentialscommand/commands/warp/commands/Warp.class
+fr/spectr2155e/essentialscommand/commands/Speed.class
+fr/spectr2155e/essentialscommand/commands/warp/manager/TabWarpCompletion.class
+fr/spectr2155e/essentialscommand/commands/GamemodeC.class
+fr/spectr2155e/essentialscommand/commands/Warp.class
+fr/spectr2155e/essentialscommand/commands/warp/manager/WarpManager.class

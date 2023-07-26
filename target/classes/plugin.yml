@@ -1,0 +1,25 @@
+name: EssentialsCommand
+version: '1.0'
+main: fr.spectr2155e.essentialscommand.EssentialsCommand
+commands:
+  gmc:
+    permission: gamemode.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
+  gms:
+    permission: gamemode.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
+  gmsp:
+    permission: gamemode.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
+  tphere:
+    permission: tphere.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
+  vanish:
+    permission: vanish.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
+  speed:
+    permission: speed.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
+  warp:
+    permission: warp.use
+    permission-message: §8§l(§4§lErreur§8§l) §cVous n'avez pas la permission d'utiliser cette commande.
