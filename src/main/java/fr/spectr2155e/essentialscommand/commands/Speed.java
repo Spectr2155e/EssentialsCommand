@@ -27,7 +27,7 @@ public class Speed implements CommandExecutor {
             sender.sendMessage("Veuillez préciser un nombre correct entre 0 et 10.");
             return false;
         }
-        float speed = Integer.valueOf(args[0]);
+        float speed = (float) Integer.valueOf(args[0]) / 10;
         if(!((Player) sender).isFlying()){
             ((Player) sender).setWalkSpeed(speed);
             sender.sendMessage("§8§l(§b§lSPEED§8§l) §fVotre vitesse de marche est désormais de §e"+speed+"§f.");
