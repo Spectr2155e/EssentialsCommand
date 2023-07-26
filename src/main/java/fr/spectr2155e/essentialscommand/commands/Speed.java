@@ -23,7 +23,7 @@ public class Speed implements CommandExecutor {
             sender.sendMessage("Veuillez préciser un nombre correct entre 0 et 10.");
             return false;
         }
-        if(Integer.valueOf(args[0]) >= 0 && Integer.valueOf(args[0]) <= 10){
+        if(!((Integer.valueOf(args[0])) >= 0) && !((Integer.valueOf(args[0]) <= 10))){
             sender.sendMessage("Veuillez préciser un nombre correct entre 0 et 10.");
             return false;
         }
