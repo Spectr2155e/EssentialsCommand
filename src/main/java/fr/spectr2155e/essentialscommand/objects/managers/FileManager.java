@@ -12,7 +12,10 @@ public class FileManager {
         if(!EssentialsCommand.instance.getDataFolder().exists()){
             EssentialsCommand.instance.getDataFolder().mkdir();
         }
-
+        //File newFolder = new File(EssentialsCommand.instance.getDataFolder().getAbsolutePath() + "/warp");
+        //if (!newFolder.exists()) {
+        //    newFolder.mkdir();
+        //}
         File file = new File(EssentialsCommand.instance.getDataFolder(), Filename + ".yml");
         if(!file.exists()){
             try {
